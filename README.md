@@ -26,6 +26,8 @@ where [n] stands for a specific position on the density graph.
 To draw the graph, we then used Gaussian method with a 10-nucleotide smoothing window. 
 
 # Main scripts
- - mapping_to_genome-PTBP1_iCLIP-pipeline.sh (Main script of the mapping pipeline to genome)
- - mapping_to_transcriptome-eIFA3_iCLIP-pipeline.sh (Main script of the mapping pipeline to transcriptome)
+ - mapping_to_genome-PTBP1_iCLIP-pipeline.sh (PTBP1 mapping pipeline to genome)
+ - mapping_to_transcriptome-eIFA3_iCLIP-pipeline.sh (eIFA3 mapping pipeline to transcriptome)
  - correct_binding_sites.sh (Main script for correction of binding sites by read-ends)
+ - normalisation_and_density_graph-eIFA4.R (normalisation and drowing of eIFA3)
+ - normalisation_and_density_graph-PTBP1.sh (normalisation and drowing of PTBP1)
