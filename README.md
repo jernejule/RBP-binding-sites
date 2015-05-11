@@ -12,10 +12,7 @@ For mapping, we compiled a set of representative mRNA sequences from BioMart Ens
 #Classification of cDNA length
 Only cDNAs that mapped to a unique genomic position were evaluated. These were separated into cDNAs that either did (complete) or did not contain parts of the 3´ Solexa primer (incomplete). For libraries produced with the 50 cycle sequencing, the complete cDNAs were further separated into those that were <30nt, 30-34nt or 34-39nt long after trimming. 
 
-#Scripts description:
-##Main scripts of the mapping pipelines.
- - mapping_to_genome-PTBP1_iCLIP-pipeline.sh
- - mapping_to_transcriptome-eIFA3_iCLIP-pipeline.sh
- - swap_barcode_to_header.py
-The script will remove random barcode and experimental barcode from fasta. Random barcode will be saved in the header of fasta file.
-
+# Main scripts
+ - mapping_to_genome-PTBP1_iCLIP-pipeline.sh (Main script of the mapping pipeline to genome)
+ - mapping_to_transcriptome-eIFA3_iCLIP-pipeline.sh (Main script of the mapping pipeline to transcriptome)
+ - correct_binding_sites.sh (Main script for correction of binding sites by read-ends)
